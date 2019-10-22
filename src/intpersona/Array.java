@@ -32,18 +32,23 @@ public final class Array {
             String direccion = JOptionPane.showInputDialog("Direccion");
             String edad = JOptionPane.showInputDialog("Fecha de Nacimiento");
 
-            for (int j = 0; j < 5; j++) {
-                System.out.println("nombre");
-                System.out.println("apellido");
-                System.out.println("telefono");
-                System.out.println("direccion");
-                System.out.println("fecha_nacimiento");
+            //for (int j = 0; j < 5; j++) {
+                System.out.println("Nombre " + nombre );
+                System.out.println("");
+                System.out.println("apellido " + apellido);
+                System.out.println("");
+                System.out.println("telefono " + telefono);
+                System.out.println("");
+                System.out.println("direccion "  +direccion);
+                System.out.println("");
+                System.out.println("fecha de nacimiento " + edad);
+                System.out.println("_______________________________");
             }
         }
 
     }
 
-    public void leerArreglo() {
+    //public void leerArreglo() {
 
     }
 
