@@ -21,35 +21,34 @@ public final class Array {
     }
 
     public void arreglo() {
-        //Array
 
+        //Array
         //Cinco empleados
-        for (int i = 0; i < 5; i++) {
+        for (int i = 0; i < 5; i = i + 1) {
             //Parametros
             String nombre = JOptionPane.showInputDialog("Escriba  Nombre");
             String apellido = JOptionPane.showInputDialog("Escriba  Apellido");
             String telefono = JOptionPane.showInputDialog("Digite telefono");
             String direccion = JOptionPane.showInputDialog("Direccion");
             String edad = JOptionPane.showInputDialog("Fecha de Nacimiento");
-
-            //for (int j = 0; j < 5; j++) {
-                System.out.println("Nombre " + nombre );
-                System.out.println("");
-                System.out.println("apellido " + apellido);
-                System.out.println("");
-                System.out.println("telefono " + telefono);
-                System.out.println("");
-                System.out.println("direccion "  +direccion);
-                System.out.println("");
-                System.out.println("fecha de nacimiento " + edad);
-                System.out.println("_______________________________");
-            }
+            String genero = JOptionPane.showInputDialog("Escriba su Genero");
+            System.out.println("PERSONA NUEVA");
+            System.out.println("Nombre: " + nombre);
+            System.out.println("");
+            System.out.println("Apellido: " + apellido);
+            System.out.println("");
+            System.out.println("Telefono: " + telefono);
+            System.out.println("");
+            System.out.println("Direccion: " + direccion);
+            System.out.println("");
+            System.out.println("Fecha de Nacimiento: " + edad);
+            System.out.println("");
+            System.out.println("Genero: " + genero);
+            System.out.println("__________________________________");
         }
-
-    }
-
-    //public void leerArreglo() {
-
     }
 
 }
+
+    //public void leerArreglo() {
+

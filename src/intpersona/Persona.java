@@ -15,17 +15,18 @@ import java.time.format.DateTimeFormatter;
  */
 public class Persona {
 
-    public String nombre, apellido, telefono, direccion, fecha_nacimiento;
+    public String nombre, apellido, telefono, direccion, fecha_nacimiento, genero;
    
 
     // constructor 
-    public void persona(String nom, String ape, String tel, String dir, String fec) {
+    public void persona(String nom, String ape, String tel, String dir, String fec, String gen) {
 
         this.nombre = nom;
         this.apellido = ape;
         this.telefono = tel;
         this.direccion = dir;
         this.fecha_nacimiento = fec;
+        this.genero= gen;
     }
     
     
