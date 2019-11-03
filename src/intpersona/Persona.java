@@ -1,18 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package intpersona;
 
 import java.time.LocalDate;
 import java.time.Period;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 
-/**
- *
- * @author estudiante
- */
 public class Persona {
 
     public String nombre, apellido, telefono, direccion, fecha_nacimiento, genero;
@@ -27,6 +20,7 @@ public class Persona {
         this.direccion = dir;
         this.fecha_nacimiento = fec;
         this.genero= gen;
+        ArrayList<Telefono>telefonos=new ArrayList();
     }
     
     

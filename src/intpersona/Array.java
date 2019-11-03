@@ -1,5 +1,6 @@
 package intpersona;
 
+import java.util.ArrayList;
 import javax.swing.JOptionPane;
 
 public final class Array {
@@ -28,10 +29,10 @@ public final class Array {
             //Parametros
             String nombre = JOptionPane.showInputDialog("Escriba  Nombre");
             String apellido = JOptionPane.showInputDialog("Escriba  Apellido");
-            String telefono = JOptionPane.showInputDialog("Digite telefono");
+            String telefono = JOptionPane.showInputDialog("home","3003246372");
             String direccion = JOptionPane.showInputDialog("Direccion");
             String edad = JOptionPane.showInputDialog("Fecha de Nacimiento");
-            String genero = JOptionPane.showInputDialog("Escriba su Genero");
+            
             System.out.println("PERSONA NUEVA");
             System.out.println("Nombre: " + nombre);
             System.out.println("");
@@ -43,12 +44,29 @@ public final class Array {
             System.out.println("");
             System.out.println("Fecha de Nacimiento: " + edad);
             System.out.println("");
-            System.out.println("Genero: " + genero);
             System.out.println("__________________________________");
+            
+            ArrayList <Telefono> telefonos = new ArrayList();
+            
+           // Array[i].telefonos.add();
         }
     }
 
 }
 
-    //public void leerArreglo() {
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
